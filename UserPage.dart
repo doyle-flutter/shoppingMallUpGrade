@@ -20,14 +20,7 @@ class _UserPageState extends State<UserPage> {
   submit(){
     _fbkey.currentState.save();
 
-    print(_fbkey.currentState.value.toString() + ":: 전체 저장 데이터");
-    print("이름 : "+_fbkey.currentState.fields['userName'].currentState.value);
-    print("주소 : "+_fbkey.currentState.fields['userAddress'].currentState.value);
-    print("주소 : "+_fbkey.currentState.fields['userAddress2'].currentState.value);
-
     if(!_fbkey.currentState.validate()){
-      print("검사오나료");
-      print(!_fbkey.currentState.validate());
       return null;
     }
     try{
