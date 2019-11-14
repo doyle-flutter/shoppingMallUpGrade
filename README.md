@@ -18,5 +18,7 @@ dependencies:
   &nbsp; &nbsp; pull_to_refresh: ^1.5.7  
   &nbsp; &nbsp; carousel_slider: ^1.3.1  
   &nbsp; &nbsp; provider: ^3.0.0  
-  
-  
+    
+      
+flutter_money_formatter 0.8.3 패키지와 flutter_form_builder의 충돌로  
+소소하게 구현하였습니다.  
